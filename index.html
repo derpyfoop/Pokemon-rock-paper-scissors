@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pokemon: rock, paper, scissors</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Rock, Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>src="script.js"</script>
+</head>
+<body>
 
-        <!--The background class is a hotfix for a bug with the css that I have not figured out.-->
-        
-        <!--Header--> 
+    <!--Header-->
 
-        <div class="headerCrt">
-            <ul class="headerItems">
-                <li id="headerTitleList">
-                    <h1 id="headerTitle">
-                        <p id="title1">Pokémon:</p>
-                        <p id="title2"> Rock,</p>
-                        <p id="title3"> Paper,</p>
-                        <p id="title4"> Scissors</p>
-                    </h1>
-                </li>
+    <div class="headerCrt">
+        <div class="headerContent">
+            <h2 id="headerTitle">
+                <p id="title1">Pokémon:</p>
+                <p id="title2">Rock,</p>
+                <p id="title3">paper,</p>
+                <p id="title4">Scissors.</p>
+            </h2>
+        </div>
+    </div>
+
+    <!--Main-->
+
+    <div class="mainCrt1">
+        <img class="pokeball" src="Imgs\pokeball.PNG" alt="Pokeball">
+    </div>
+    <div class="mainCrt2">
+        <div class="playersList">
+            <ul id="player">
+                <li id="playerText"><h1 class="background">Player:</h1></li>
+                <li id="playerScore"><h1 class="background">0</h1></li>
+            </ul>
+            <ul id="joey">
+                <li id="joeyText"><h1 class="background">Joey:</h1></li>
+                <li id="joeyScore"><h1 class="background">0</h1></li>
             </ul>
         </div>
-
-        <!--Main-->
-
-        <div class="mainCrt">
-            <img id="pokeball" src="Imgs\pokeball.PNG" alt="Pokeball.">
-            <div class="playersList">
-                <ul id="player">
-                    <li id="playerText"><h1 class="background">Player:</h1></li>
-                    <li id="playerScore"><h1 class="background">0</h1></li>
-                </ul>
-                <ul id="joey">
-                    <li id="joeyText"><h1 class="background">Joey:</h1></li>
-                    <li id="joeyScore"><h1 class="background">0</h1></li>
-                </ul>
-            </div>
-            <div class="selections">
-                <button class="selection" id="rockType">Rock</button>
-                <button class="selection" id="paperType">Paper</button>
-                <button class="selection" id="scissorsType">Scissors</button>
-            </div>
+    </div>
+    <div class="mainCrt3">
+        <div class="selections">
+            <button class="selection" id="rockType">Rock</button>
+            <button class="selection" id="paperType">Paper</button>
+            <button class="selection" id="scissorsType">Scissors</button>
         </div>
+    </div>
 
-        <!--Footer-->
+    <!--Footer-->
 
-        <div class="footerCrt">
-            <p class="background">Copyright © 2022 Matthew E Ward | The Pokémon Company.</p>
-        </div>
-
-    </body>
+    <div class="footerCrt">
+        <p class="footerText">Copyright © 2022 Matthew E Ward | The Pokémon Company.</p>
+    </div>
+    
+</body>
 </html>
