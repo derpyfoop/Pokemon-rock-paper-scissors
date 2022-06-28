@@ -55,3 +55,14 @@
     text-shadow: 0 0 2px #5d5086;
 }
 
+/*Main*/
+
+.mainCrt {
+    background-color: #383838;
+}
+
+#pokeball {
+   position: relative;
+   left: 42.5%;
+   width: 204.8px;
+}
