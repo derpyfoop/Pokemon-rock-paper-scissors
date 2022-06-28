@@ -66,3 +66,29 @@
    left: 42.5%;
    width: 204.8px;
 }
+
+.playersList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#player, #joey {
+    background-color: #101010;
+    border: 1px #050505;
+    border-radius: 15px;
+    padding: 50px;
+    list-style: none;
+}
+
+#playerText, #joeyText {
+    color: #ffd304;
+}
+
+#playerScore, #joeyScore {
+    color: #f43739;
+    position: relative;
+    left: 40%;
+}
