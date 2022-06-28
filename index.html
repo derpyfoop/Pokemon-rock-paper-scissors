@@ -9,6 +9,8 @@
         <script src="script.js"></script>
     </head>
     <body>
+
+        <!--The background class is a hotfix for a bug with the css that I have not figured out.-->
         
         <!--Header--> 
 
@@ -31,17 +33,26 @@
             <img id="pokeball" src="Imgs\pokeball.PNG" alt="Pokeball.">
             <div class="playersList">
                 <ul id="player">
-                    <li id="playerText"><h1>Player:</h1></li>
-                    <li id="playerScore"><h1>0</h1></li>
+                    <li id="playerText"><h1 class="background">Player:</h1></li>
+                    <li id="playerScore"><h1 class="background">0</h1></li>
                 </ul>
                 <ul id="joey">
-                    <li id="joeyText"><h1>Joey:</h1></li>
-                    <li id="joeyScore"><h1>0</h1></li>
+                    <li id="joeyText"><h1 class="background">Joey:</h1></li>
+                    <li id="joeyScore"><h1 class="background">0</h1></li>
                 </ul>
+            </div>
+            <div class="selections">
+                <button class="selection" id="rockType">Rock</button>
+                <button class="selection" id="paperType">Paper</button>
+                <button class="selection" id="scissorsType">Scissors</button>
             </div>
         </div>
 
         <!--Footer-->
+
+        <div class="footerCrt">
+            <p class="background">Copyright © 2022 Matthew E Ward | The Pokémon Company.</p>
+        </div>
 
     </body>
 </html>

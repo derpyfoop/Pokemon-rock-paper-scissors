@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     font-family: Miltonian;
+    background-color: #383838;
 }
 
 /*Header*/
@@ -35,24 +36,28 @@
 #title1 {
     color: #ffcc01;
     -webkit-text-stroke: 1px #375caa;
+    background-color: #101010;
 }
 
 #title2 {
     color: #b7a037;
     -webkit-text-stroke: 1px #6d6021;
     text-shadow: 0 0 2px #6d6021;
+    background-color: #101010;
 }
 
 #title3 {
     color: #78c84e;
     -webkit-text-stroke: 1px #43702b;
     text-shadow: 0 0 2px #43702b;
+    background-color: #101010;
 }
 
 #title4 {
     color: #a890f0;
     -webkit-text-stroke: 1px #5d5086;
     text-shadow: 0 0 2px #5d5086;
+    background-color: #101010;
 }
 
 /*Main*/
@@ -63,7 +68,7 @@
 
 #pokeball {
    position: relative;
-   left: 42.5%;
+   left: 44%;
    width: 204.8px;
 }
 
@@ -73,6 +78,7 @@
     align-items: center;
     margin-left: 250px;
     margin-right: 250px;
+    margin-bottom: 185px;
 }
 
 #player, #joey {
@@ -85,10 +91,57 @@
 
 #playerText, #joeyText {
     color: #ffd304;
+    background-color: #101010;
 }
 
 #playerScore, #joeyScore {
     color: #f43739;
     position: relative;
     left: 40%;
+    background-color: #101010;
+}
+
+.background {
+    background-color: #101010;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 301px;
+    position: relative;
+    left: 40.5%;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #101010;
+    border: 1px#050505;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+#rockType {
+    color: white;
+    background-color: #b7a037;
+}
+
+#paperType {
+    color: white;
+    background-color: #78c84e;
+}
+
+#scissorsType {
+    color: white;
+    background-color: #a890f0;
+}
+
+/*Footer*/
+
+.footerCrt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #101010;
 }
