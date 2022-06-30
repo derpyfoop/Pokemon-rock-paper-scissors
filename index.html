@@ -4,55 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon Rock, Paper Scissors</title>
+    <title>Pokémon: Rock, Paper, Scissors</title>
     <link rel="stylesheet" href="styles.css">
-    <script>src="script.js"</script>
 </head>
 <body>
+    <header>
+        <h1>
+            <span class="header1">Pokémon:</span>
+            <span class="header2"> Rock,</span>
+            <span class="header3"> Paper,</span>
+            <span class="header4"> Scissors</span>
+        </h1>
+    </header>
 
-    <!--Header-->
-
-    <div class="headerCrt">
-        <div class="headerContent">
-            <h2 id="headerTitle">
-                <p id="title1">Pokémon:</p>
-                <p id="title2">Rock,</p>
-                <p id="title3">paper,</p>
-                <p id="title4">Scissors.</p>
-            </h2>
-        </div>
+    <div class="score-board">
+        <div id="trainer-label" class="badge">trainer</div>
+        <div id="joey-label" class="badge">joey</div>
+        <span id="trainer-score">0</span>:<span id="joey-score">0</span>
     </div>
 
-    <!--Main-->
-
-    <div class="mainCrt1">
-        <img class="pokeball" src="Imgs\pokeball.PNG" alt="Pokeball">
-    </div>
-    <div class="mainCrt2">
-        <div class="playersList">
-            <ul id="player">
-                <li id="playerText"><h1 class="background">Player:</h1></li>
-                <li id="playerScore"><h1 class="background">0</h1></li>
-            </ul>
-            <ul id="joey">
-                <li id="joeyText"><h1 class="background">Joey:</h1></li>
-                <li id="joeyScore"><h1 class="background">0</h1></li>
-            </ul>
-        </div>
-    </div>
-    <div class="mainCrt3">
-        <div class="selections">
-            <button class="selection" id="rockType">Rock</button>
-            <button class="selection" id="paperType">Paper</button>
-            <button class="selection" id="scissorsType">Scissors</button>
-        </div>
+    <div class="choices">
+        <button id="rock" class="choice">Rock</button>
+        <button id="paper" class="choice">Paper</button>
+        <button id="scissors" class="choice">Scissors</button>
     </div>
 
-    <!--Footer-->
+    <p id="action-message">What will trainer do?</p>
 
-    <div class="footerCrt">
-        <p class="footerText">Copyright © 2022 Matthew E Ward | The Pokémon Company.</p>
-    </div>
-    
+    <footer>
+        <p>Copyright © 2022 Matthew E Ward | The Pokémon Company. </p>
+    </footer>
 </body>
 </html>
