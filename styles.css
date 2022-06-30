@@ -78,6 +78,16 @@ body {
     right: -30px;
 }
 
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+}
+
 .choices {
     margin: 50px 0px;
     text-align: center;
@@ -102,21 +112,21 @@ body {
     background-color: #92802c;
 }
 
-#paper {
+#grass {
     color: white;
     background-color: #78c84e;
 }
 
-#paper:hover {
+#grass:hover {
     background-color: #60a03e;
 }
 
-#scissors {
+#flying {
     color: white;
     background-color: #a890f0;
 }
 
-#scissors:hover {
+#flying:hover {
     background-color: #8673c0;
 }
 
